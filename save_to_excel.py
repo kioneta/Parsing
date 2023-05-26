@@ -10,10 +10,10 @@ def writer(parametr):
 
     #задаем название колонок
     page.write(0, 0, "N")
-    page.write(0, 1, "name")
-    page.write(0, 2, "price")
-    page.write(0, 3, "volume")
-    page.write(0, 4, "picture")
+    page.write(0, 1, "Name")
+    page.write(0, 2, "Price")
+    page.write(0, 3, "Volume")
+    page.write(0, 4, "Picture")
 
     # устанавливает ширину колонки
     page.set_column("A:A", 10)
