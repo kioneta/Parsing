@@ -6,10 +6,10 @@ The site looks following way:
 
 
 Script takes:
-1.  Name
-2.  Price
-3.  Link to picture
-4.  Volume
+1.  Name (cleared from useless words)
+2.  Price (converted to float type)
+3.  Volume
+4.  Link to picture
 
 And saves to excel file on your Desktop:
 ![image](https://github.com/kioneta/Parsing/assets/110675077/f63a8625-a771-4657-b9b5-cf50af449caf)
